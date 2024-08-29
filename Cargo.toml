@@ -10,4 +10,4 @@ repository = "https://github.com/dioxus-community/dioxus-use-mounted"
 dioxus = { git = "https://github.com/DioxusLabs/dioxus" }
 
 [dev-dependencies]
-dioxus-web = "0.6.0-alpha.2"
+dioxus = { git = "https://github.com/DioxusLabs/dioxus", features = ["web"] }
